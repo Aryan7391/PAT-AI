@@ -1,0 +1,134 @@
+# ─────────────────────────────
+# Python
+# ─────────────────────────────
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# ─────────────────────────────
+# VS Code
+# ─────────────────────────────
+
+.vscode/
+
+# ─────────────────────────────
+# Environment variables
+# ─────────────────────────────
+
+.env
+.env.*
+
+# ─────────────────────────────
+# SQLite / Memory
+# ─────────────────────────────
+
+*.db
+*.sqlite3
+*.sqlite
+
+# Optional:
+# keep schema but ignore live memory
+memory/*.db
+
+# Session logs
+memory/logs/
+memory/cache/
+
+# ─────────────────────────────
+# Audio / Voice
+# ─────────────────────────────
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+recordings/
+audio/
+
+# Whisper temp files
+temp_audio/
+tmp/
+
+# ─────────────────────────────
+# Ollama / Model Artifacts
+# ─────────────────────────────
+
+models/
+*.gguf
+
+# ─────────────────────────────
+# Flask
+# ─────────────────────────────
+
+instance/
+.webassets-cache/
+
+# ─────────────────────────────
+# OS Files
+# ─────────────────────────────
+
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────
+# Logs
+# ─────────────────────────────
+
+*.log
+logs/
+
+# ─────────────────────────────
+# Testing
+# ─────────────────────────────
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─────────────────────────────
+# Node (future frontend upgrades)
+# ─────────────────────────────
+
+node_modules/
+
+# ─────────────────────────────
+# Runtime cache
+# ─────────────────────────────
+
+.cache/
+
+# ─────────────────────────────
+# Secrets / Keys
+# ─────────────────────────────
+
+secrets.json
+credentials.json
+config.local.json
+# Python
+__pycache__/
+*.pyc
+
+# Database
+memory.db
+*.db
+
+# Uploads
+uploads/
+upload/
+
+# Audio/video files
+*.wav
+*.webm
+*.mp3
